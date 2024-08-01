@@ -1,0 +1,33 @@
+{
+    "language": "English",
+    "wml_address": "127.0.0.1:106",
+    "mpps_address": "127.0.0.1:107",
+    "pacs_address": "127.0.0.1:11112",
+    "debug": false,
+    "wml_ae_title": "ENS-MWL",
+    "mpps_ae_title": "ENS-MPPS",
+    "calling_ae_title":"ct99",
+    "pacs_ae_title": "ENS-PACS",
+    "ct_default_path":"./system_data\\/dcm\\/ct",
+    "mr_default_path":"./system_data\\/dcm\\/mr",
+    "pacs_info": [
+        {
+            "name":"MIM1",
+            "pacs_address": "127.0.0.1:11112",
+            "pacs_ae_title": "ENS-PACS",
+            "uuid":"uuids1"
+        },
+        {
+            "name":"MIM2",
+            "pacs_address": "127.0.0.1:11112",
+            "pacs_ae_title": "ENS-PACS",
+            "uuid":"uuids2"
+        },
+        {
+            "name":"MIM3",
+            "pacs_address": "127.0.0.1:11112",
+            "pacs_ae_title": "ENS-PACS",
+            "uuid":"uuids3"
+        }
+    ]
+}
